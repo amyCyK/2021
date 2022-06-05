@@ -1,0 +1,16 @@
+Assignmnet Q1:
+
+UMF (Mission No, Agency No, Lead Agency, Counrty, Mission Date, {Equipment, Qty, Item Weight, Total Weight})
+
+1NF (Mission No, Agency No, Lead Agency, Country, Mission Date)
+    (Mission No, Equipment, Qty, Item Weight, Total Weight)
+
+2NF (Mission No, Equipment, Qty, Item Weight, Total Weight)
+    (Mission No, Agency No, Country, Mission Date)
+    (Agency No, Lead Agency)
+
+3NF ***Not Sure***
+    (Mission No, Equipment, Total Weight)
+    (Mission No, Agency No, Country, Mission Date)
+    (Agency No, Lead Agency)
+    (Equipment, Qty, Item Weight)
